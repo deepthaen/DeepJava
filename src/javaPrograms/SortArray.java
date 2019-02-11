@@ -12,7 +12,7 @@ public class SortArray {
 		
 		System.out.printf("Ascending order array ::: %s  ",Arrays.toString(arr));  
 	
-	
+	 
 	
 		 // Sorts arr[] in descending order 
 	 Integer[] arrD = {13, 7, 6, 45, 21, 9, 2, 100}; 
