@@ -10,6 +10,7 @@ public class LenArrStrInt {
 		int n = 234;
 		
 		int stringarrlenght = s.length;
+		
 		int stringlenth = si.length();
 		int arrlength = arr.length;
 //		int intlength =  sizeof(int.class);
