@@ -35,7 +35,21 @@ public class MainInterface {
 		cricket c = new cricket();
 		c.Move();
 		c.play();
+		
+		// class inside interfae
+		write w = new write();
+		w.ink();
+		w.cap();
+		
+		design d = new design();
+		w.cap();
+		w.ink();
 
+		
+		//interface and class
+		ClassC ci = new ClassC();
+		ci.A();
+		ci.B();
 		}
 
 }
