@@ -1,6 +1,6 @@
 package interfacePackage;
 
-public interface Ivechicle {
+public interface IvechicleParametric {
 	
 	public void ChangeGear(int a);
 	public void Speed(int b);
@@ -8,7 +8,7 @@ public interface Ivechicle {
 	
 	}
 
-class vechileOne implements Ivechicle{
+class vechileOne implements IvechicleParametric{
    
 	int gear;
 	int dec, ince;
@@ -35,7 +35,7 @@ class vechileOne implements Ivechicle{
 	
 }
 
-class vechicleTwo implements Ivechicle{
+class vechicleTwo implements IvechicleParametric{
 
 	int gear;
 	int dec, ince;

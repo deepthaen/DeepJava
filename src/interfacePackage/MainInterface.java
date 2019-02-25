@@ -47,7 +47,7 @@ public class MainInterface {
 
 		
 		//interface and class
-		ClassC ci = new ClassC();
+		ImplTwoInterface ci = new ImplTwoInterface();
 		ci.A();
 		ci.B();
 		}

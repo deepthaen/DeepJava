@@ -1,6 +1,6 @@
 package interfacePackage;
 
-public class ClassC implements InterB, InterA{
+public class ImplTwoInterface implements InterB, InterA{
 
 	@Override
 	public void A() {
@@ -13,6 +13,7 @@ public class ClassC implements InterB, InterA{
 		// TODO Auto-generated method stub
 		System.out.println("inteeface class");
 	}
+
 	
 
 }
