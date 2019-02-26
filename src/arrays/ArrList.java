@@ -46,6 +46,19 @@ public class ArrList {
 		System.out.println("Not Empty");
 	}
 	
+	ArrayList<String>  As = new ArrayList<String>();
+	As.add("Ad");
+	As.add("dd");
+	As.add("rr");
+	
+	
+	for(String i: As) {
+		System.out.println("Array Lsit"  + i);
+
+	}
 	}
 
+	
+	
+	
 }

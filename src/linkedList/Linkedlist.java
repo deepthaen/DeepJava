@@ -8,6 +8,7 @@ public class Linkedlist {
 		// TODO Auto-generated method stub
 		LinkedList<String> Obj = new LinkedList<String>();
 		
+		
 		//adding to list
 		Obj.add("D");
 		Obj.add("C");
@@ -19,6 +20,11 @@ public class Linkedlist {
 		Obj.add(2, "F");
 		System.out.println("Linked List ::" + Obj);
 		
+		
+		for(String i : Obj) {
+			
+			System.out.println(i);
+		}
 		//Remove from linked list
 		
 		Obj.remove("F");
@@ -49,5 +55,8 @@ public class Linkedlist {
 		
 
 	}
+	
+	
+	
 
 }
