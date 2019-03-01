@@ -14,6 +14,7 @@ public class LenArrStrInt {
 		int stringlenth = si.length();
 		int arrlength = arr.length;
 //		int intlength =  sizeof(int.class);
+	//	int intergrlen = 
 		
 		System.out.println(stringarrlenght);
 		System.out.println(stringlenth);
