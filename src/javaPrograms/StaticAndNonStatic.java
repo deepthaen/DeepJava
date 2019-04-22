@@ -38,6 +38,7 @@ public class StaticAndNonStatic {
 	}	
 	}
 
+
      class test  {
     	 void geek() {
     	 System.out.println("calling from diff class");

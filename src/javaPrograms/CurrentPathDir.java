@@ -9,9 +9,15 @@ public class CurrentPathDir {
 		// TODO Auto-generated method stub
 
 		
-		Path currentRelativePath = Paths.get("");
-		String s = currentRelativePath.toAbsolutePath().toString();
-		System.out.println("Current relative path is: " + s);
+		Path currentAbsolutePath = Paths.get("");
+		String s = currentAbsolutePath.toAbsolutePath().toString();
+		System.out.println("Current absolute path is: " + s);
+		
+		
+		
+		
+		
+		
 	}
 
 }

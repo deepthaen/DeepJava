@@ -35,7 +35,7 @@ public class Anagram {
 		// TODO Auto-generated method stub
 
 		char str1[] = {'t', 'e', 's', 't'};
-		char str2[] = {'e', 't'};
+		char str2[] = {'e', 't', 's', 'w'};
 		
 		if (areAnagram(str1, str2)) {
 			System.out.println("The two strings are"
