@@ -22,16 +22,8 @@ public class Anagram {
 			
 		return true;	
 		
-		
-		
 	}
-	
-	
-	
-	
-	
-
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		char str1[] = {'t', 'e', 's', 't'};
