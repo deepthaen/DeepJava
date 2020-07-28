@@ -1,6 +1,7 @@
 package excel;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -18,8 +19,8 @@ public class WriteExcel {
 	    int num = sheet.getLastRowNum(); 
 	    Row row = sheet.createRow(++num); 
 	    row.createCell(0).setCellValue("xyz"); 
-	    ..... 
-	        .. 
+	  
+	     
 	        // Now this Write the output to a file 
 	        FileOutputStream fileOut = new FileOutputStream(FILE_NAME); 
 	    wb.write(fileOut); 
