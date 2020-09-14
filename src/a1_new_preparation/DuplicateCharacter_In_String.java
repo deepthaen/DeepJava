@@ -11,11 +11,33 @@ public class DuplicateCharacter_In_String {
 	
 	public static void main(String[] args) {
 		//duplicate("aaadbfaaaabb");
-		//duplicateWord("Deeptha and dummy is a big dubakur and very big");
-		int[] a = {2,4,5,2,4,5,5,5,5,6,2};
-		arrayDuplicate(a);
+		duplicateWord("Deeptha and dummy is a big dubakur and very big");
+		//int[] a = {2,4,5,2,4,5,5,5,5,6,2};
+		//arrayDuplicate(a);
+		//duplicate_without_hasmap("aaadbfaaaabb");
 	}
 	
+	public static void duplicate_without_hasmap(String str) {
+		
+		int count =0;
+		for (int i = 0; i < str.length(); i++) { // aaadbfaaaabb
+			count =1;
+			char a = str.charAt(i);//a
+			
+			for (int j = i+1; j < str.length(); j++) { //abc
+				char b= str.charAt(j); //a
+				if(a == b) { //a==a
+					count++;//6
+					//str = str.substring(0, j)+str.substring(j+1); //aabc-->0,1+2
+				}
+			}
+			if(count>1) {
+				System.out.println(a);
+			}
+			String s = String.valueOf(a);
+			str = s.replaceAll(s, "");
+		}
+	}
 	
 	public static void duplicate(String str) { // Using Hash Map
 		int len = str.length();
@@ -30,14 +52,14 @@ public class DuplicateCharacter_In_String {
 				map.put(key,1); //a=1
 			}
 		}
-		System.out.println(map);
+		System.out.println(map);   
 		
 		Set<Character> set = map.keySet();
 		for(Character key: set) {
 			if(map.get(key)==1) {
 				System.out.println(key +" --> "+map.get(key));
 			}
-		}
+		} 
 	}
 	
 	public static void duplicateWord(String str) { // Using Hash Map
